@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.registration-wrapper {
+    background: rgb(221, 221, 221, .2);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.registration-wrapper h3 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.registration-wrapper form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.registration-wrapper .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.gender-radio input {
+    margin: 5px 5px 20px;
+}
+#submit {
+    width: 116px;
+    padding: 10px;
+    border-radius: 4px;
+    background: #9dbfa3;
+}
